@@ -1,0 +1,7 @@
+service : {
+  compound: () -> () oneway;
+  getbalance: () -> (float64) query;
+  printTime: () -> () oneway;
+  topUp: (float64) -> () oneway;
+  withdraw: (float64) -> () oneway;
+}
